@@ -19,18 +19,20 @@
 #     print('Factorial of', i, 'is', fact(i))
 
 # For loop
-def fact (num) :
+# def fact (num) :
+#     sum = 1
+#     for i in range(1, num + 1):
+#         sum = sum * i
+#     return sum
+
+def fact (num):
     sum = 1
-    for i in range(1, num + 1):
-        if i == 0:
-            sum = 1
-        if i == 1:
-            sum = 1
-        else:
-            sum = sum * i
+    # i = 1
+    while num > 0:
+        sum = sum * num
+        num -= 1
     return sum
 
 
-
-for i in range(7):
+for i in range(5):
     print('Factorial of', i, 'is', fact(i))

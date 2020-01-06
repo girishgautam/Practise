@@ -1,7 +1,29 @@
-import math
 
-num = int(input('Enter a number: '))
+# In built
+# import math
+#
+# num = int(input('Enter a number: '))
+#
+# result = math.factorial(num)
+#
+# print('Factorial of', num, 'is', result)
 
-result = math.factorial(num)
+# Recurion
+# def fact(num):
+#     if num == 0:
+#         return 1
+#     else:
+#        return num * fact(num-1)
+#
+# for i in range(6):
+#     print('Factorial of', i, 'is', fact(i))
 
-print('Factorial of', num, 'is', result)
+# For loop
+
+
+
+
+
+
+for i in range(6):
+    print('Factorial of', i, 'is', fact(i))

@@ -25,6 +25,8 @@
 #         sum = sum * i
 #     return sum
 
+# Using while loop
+
 def fact (num):
     sum = 1
     # i = 1
